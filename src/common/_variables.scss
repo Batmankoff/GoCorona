@@ -1,0 +1,29 @@
+@import '../fonts/fonts';
+
+$light: #ffffff;
+$dark: #000000;
+$default: #616161;
+$primary: #ec5863;
+$secondary: #587eec;
+$bg-primary: #fafbfd;
+$gray: #b0b0b0;
+
+%rubik-400 {
+  font-family: 'Rubik';
+  font-weight: 400;
+}
+
+%rubik-700 {
+  font-family: 'Rubik';
+  font-weight: 700;
+}
+
+%raleway-700 {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+%raleway-800 {
+  font-family: 'Raleway';
+  font-weight: 800;
+}

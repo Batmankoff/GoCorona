@@ -1,0 +1,54 @@
+{
+  "name": "messages",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "stylelint": "stylelint '**/*{.css,.scss}'",
+    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix",
+    "lint:scss": "stylelint \"src/**/*.scss\" --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "postcss-scss": "^4.0.6",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "stylelint": "^15.6.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-scss": "^5.0.0"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "customSyntax": "postcss-scss",
+  "plugins": ["stylelint-order", "stylelint-scss"],
+  "rules": {
+    "order/properties-order": [
+      [
+        {
+          "properties": [
+            "position",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "z-index"
+          ],
+          "emptyLineBefore": "always",
+          "groupName": "Positioning"
+        },
+        {
+          "properties": [
+            "display",
+            "flex",
+            "flex-direction",
+            "flex-wrap",
+            "justify-content",
+            "align-items",
+            "align-content",
+            "flex-grow",
+            "order",
+            "box-sizing",
+            "width",
+            "height",
+            "max-width",
+            "max-height",
+            "min-width",
+            "min-height",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "float",
+            "clear",
+            "overflow",
+            "overflow-x",
+            "overflow-y",
+            "clip",
+            "zoom",
+            "border",
+            "border-top",
+            "border-right",
+            "border-bottom",
+            "border-left",
+            "border-width",
+            "border-top-width",
+            "border-right-width",
+            "border-bottom-width",
+            "border-left-width",
+            "border-style",
+            "border-top-style",
+            "border-right-style",
+            "border-bottom-style",
+            "border-left-style",
+            "border-radius",
+            "border-top-left-radius",
+            "border-top-right-radius",
+            "border-bottom-right-radius",
+            "border-bottom-left-radius"
+          ],
+          "emptyLineBefore": "always",
+          "groupName": "Display & Box Model"
+        },
+        {
+          "properties": [
+            "color",
+            "background",
+            "background-color",
+            "background-image",
+            "background-repeat",
+            "background-position",
+            "background-size",
+            "opacity"
+          ],
+          "emptyLineBefore": "always",
+          "groupName": "Color"
+        },
+        {
+          "properties": [
+            "font",
+            "line-height",
+            "text-align",
+            "text-decoration",
+            "text-indent",
+            "text-transform",
+            "vertical-align",
+            "white-space",
+            "word-spacing"
+          ],
+          "emptyLineBefore": "always",
+          "groupName": "Text"
+        },
+        {
+          "properties": [
+            "animation",
+            "transition",
+            "transform",
+            "backface-visibility",
+            "perspective",
+            "cursor",
+            "user-select"
+          ],
+          "emptyLineBefore": "always",
+          "groupName": "Other"
+        }
+      ]
+    ]
+  }
+}
